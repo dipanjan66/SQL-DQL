@@ -1,0 +1,71 @@
+--SELECT:- Syntax:-
+
+-- SELECT DISTINCT:-
+
+-----------------------------------------------------
+
+
+SELECT column_name FROM table_name
+
+-------------------------------------------------------
+--Select Every column from Table:-
+
+SELECT * from table_name
+
+--============================================================
+
+-- SELECT DISTINCT:- Used to Remove Duplicates
+
+-- SELECT DISTINCT Syntax - Used to get Unique Value in Column (To Remove Duplicate)
+
+
+SELECT DISTINCT column1, column2, ...
+FROM table_name;
+
+
+--------------------------------------------------------
+--Example:-
+
+-- release_year - is a collumn
+
+-- film - is a Table
+
+
+select DISTINCT release_year from film;
+
+--==================================================================
+
+-- SELECT WHERE:- Syntax
+
+SELECT column1, column2
+FROM Table
+WHERE conditions;
+
+-----------------------------------
+
+-- Example 01:-
+
+
+-- roll, choice - are columns
+
+-- student - is a Table
+
+
+select roll, choice from student
+WHERE roll = 5
+
+
+-- Example 02:-
+
+-- customer - is a Table
+
+-- first_name - is a column
+
+
+select * from customer
+WHERE first_name = 'David'
+
+
+
+
+
